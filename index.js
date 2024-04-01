@@ -1,8 +1,4 @@
-const { v4: uuidv4 } = require('uuid');
-
-// 生成随机字符串
-function generateRandomString() {
-  return uuidv4();
+function random(min,max){
+    return Math.floor(Math.random())
 }
-
-module.exports = generateRandomString;
+module.exports=random;
